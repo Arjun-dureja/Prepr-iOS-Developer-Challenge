@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class AuthViewController: UIViewController {
     @IBOutlet weak var logo: UIImageView!
@@ -31,15 +32,19 @@ class AuthViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
-           NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "Logout", style: .plain, target: nil, action: nil)
         navigationItem.backBarButtonItem?.tintColor = .systemRed
+        navigationController?.navigationBar.barTintColor = UIColor.white
+        navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.customGreen]
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.customGreen]
+        navigationController?.navigationBar.prefersLargeTitles = true
         
         logo.image = UIImage(named: "logo")
         backgroundImage.backgroundColor = UIColor.white
         
-        usernameField.attributedPlaceholder = NSAttributedString(string: "Username", attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+        usernameField.attributedPlaceholder = NSAttributedString(string: "Email", attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
         passwordField.attributedPlaceholder = NSAttributedString(string: "Password", attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
         
         usernameField.addTarget(self, action: #selector(nextTapped), for: .editingDidEndOnExit)
@@ -78,11 +83,28 @@ class AuthViewController: UIViewController {
     @IBAction func signInTapped(_ sender: Any) {
         guard let username = usernameField.text else { return }
         guard let password = passwordField.text else { return }
-        if username == "arjun" && password == "test" {
-            guard let vc = storyboard?.instantiateViewController(withIdentifier: "labs") as? LabsViewController else { return }
-            navigationController?.pushViewController(vc, animated: true)
-        }
         
+        Auth.auth().signIn(withEmail: username, password: password, completion: { (result, error) in
+            if error != nil {
+                let ac = UIAlertController(title: "Invalid Email or Password", message: nil, preferredStyle: .alert)
+                ac.addAction(UIAlertAction(title: "Try Again", style: .default))
+                self.present(ac, animated: true)
+            } else {
+                guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "labs") as? LabsViewController else { return }
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        })
+    }
+    
+    @IBAction func signUpBtnTapped(_ sender: Any) {
+        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "signup") as? SignUpViewController else { return }
+        let transition = CATransition()
+        transition.duration = 0.5
+        transition.timingFunction = CAMediaTimingFunction(name: .easeInEaseOut)
+        transition.type = .push
+        transition.subtype = .fromTop
+        navigationController?.view.layer.add(transition, forKey: kCATransition)
+        navigationController?.pushViewController(vc, animated: false)
     }
 }
 

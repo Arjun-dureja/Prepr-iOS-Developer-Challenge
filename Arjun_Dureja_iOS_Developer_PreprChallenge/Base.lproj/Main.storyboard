@@ -69,6 +69,9 @@
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUpBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="14h-hn-6zV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -109,6 +112,73 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860.86956521739137" y="-71.651785714285708"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="pel-3B-bYN">
+            <objects>
+                <viewController storyboardIdentifier="signup" id="Dtz-no-HiN" customClass="SignUpViewController" customModule="Arjun_Dureja_iOS_Developer_PreprChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yJf-ng-9Ny">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Pzb-P6-L1b">
+                                <rect key="frame" x="10" y="54" width="394" height="201"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnh-kf-han">
+                                        <rect key="frame" x="8" y="8" width="378" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="3EG-EP-rg0"/>
+                                        </constraints>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TKR-wh-Jzk" customClass="AuthTextField" customModule="Arjun_Dureja_iOS_Developer_PreprChallenge" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="43" width="378" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="HAK-UX-KLm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5g8-i3-vBF">
+                                        <rect key="frame" x="8" y="108" width="378" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="JLY-tU-DJj"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eDC-Nh-djM" customClass="AuthTextField" customModule="Arjun_Dureja_iOS_Developer_PreprChallenge" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="143" width="378" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="QUE-mQ-n7i"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                    </textField>
+                                </subviews>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Pzb-P6-L1b" firstAttribute="top" secondItem="2DY-XE-BMw" secondAttribute="top" constant="10" id="CPe-w1-res"/>
+                            <constraint firstItem="2DY-XE-BMw" firstAttribute="trailing" secondItem="Pzb-P6-L1b" secondAttribute="trailing" constant="10" id="kJI-jf-eIK"/>
+                            <constraint firstItem="Pzb-P6-L1b" firstAttribute="leading" secondItem="2DY-XE-BMw" secondAttribute="leading" constant="10" id="td4-aK-XB9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2DY-XE-BMw"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="TKR-wh-Jzk" id="lFv-Vm-CSQ"/>
+                        <outlet property="passwordField" destination="eDC-Nh-djM" id="GCb-l0-cDe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UM7-jT-y1w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1786.9565217391305" y="-82.366071428571431"/>
         </scene>
         <!--Labs View Controller-->
         <scene sceneID="DUu-Ld-F7N">
@@ -187,7 +257,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLA-fR-JMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1757.9710144927537" y="-72.321428571428569"/>
+            <point key="canvasLocation" x="2709" y="-65"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="APq-A8-ZKp">
@@ -202,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRM-iC-VUc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3591" y="-84"/>
+            <point key="canvasLocation" x="3651" y="218"/>
         </scene>
         <!--Create Lab View Controller-->
         <scene sceneID="Ohx-Sh-bAL">
@@ -288,7 +358,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ij7-yI-BUY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2702.898550724638" y="-84.375"/>
+            <point key="canvasLocation" x="3651" y="-466"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nbS-Kh-3yx">

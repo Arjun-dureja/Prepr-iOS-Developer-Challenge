@@ -19,11 +19,12 @@
 		72A2B39D2465CC700095F4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A2B39B2465CC700095F4EB /* Main.storyboard */; };
 		72A2B39F2465CC710095F4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A2B39E2465CC710095F4EB /* Assets.xcassets */; };
 		72A2B3A22465CC710095F4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A2B3A02465CC710095F4EB /* LaunchScreen.storyboard */; };
-		72A2B3AD2465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3AC2465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests.swift */; };
 		72A2B3B82465D5130095F4EB /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3B72465D5130095F4EB /* AuthTextField.swift */; };
 		72A2B3BA2465E76E0095F4EB /* LabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3B92465E76E0095F4EB /* LabsViewController.swift */; };
 		72A2B3BC246611890095F4EB /* LabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3BB246611890095F4EB /* LabCell.swift */; };
 		72F4BC712467B67100689D50 /* keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BC702467B67100689D50 /* keys.txt */; };
+		72F4BC732467D04400689D50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BC722467D04400689D50 /* GoogleService-Info.plist */; };
+		72F4BC752467D74B00689D50 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4BC742467D74B00689D50 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +55,12 @@
 		72A2B3A12465CC710095F4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72A2B3A32465CC710095F4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72A2B3A82465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arjun_Dureja_iOS_Developer_PreprChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72A2B3AC2465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_PreprChallengeTests.swift; sourceTree = "<group>"; };
-		72A2B3AE2465CC710095F4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72A2B3B72465D5130095F4EB /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
 		72A2B3B92465E76E0095F4EB /* LabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabsViewController.swift; sourceTree = "<group>"; };
 		72A2B3BB246611890095F4EB /* LabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabCell.swift; sourceTree = "<group>"; };
 		72F4BC702467B67100689D50 /* keys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys.txt; sourceTree = "<group>"; };
+		72F4BC722467D04400689D50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72F4BC742467D74B00689D50 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 				72A2B3B92465E76E0095F4EB /* LabsViewController.swift */,
 				726B874F24667534004F62F5 /* CreateLabViewController.swift */,
 				726B874B246637FC004F62F5 /* MapViewController.swift */,
+				72F4BC742467D74B00689D50 /* SignUpViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -130,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				72A2B3942465CC700095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallenge */,
-				72A2B3AB2465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests */,
 				72A2B3932465CC700095F4EB /* Products */,
 				D35BF902A4E07BBD2F873FF9 /* Pods */,
 				542E195CDC04E57D8A491DAA /* Frameworks */,
@@ -160,17 +161,9 @@
 				72A2B3A02465CC710095F4EB /* LaunchScreen.storyboard */,
 				72A2B3A32465CC710095F4EB /* Info.plist */,
 				72F4BC702467B67100689D50 /* keys.txt */,
+				72F4BC722467D04400689D50 /* GoogleService-Info.plist */,
 			);
 			path = Arjun_Dureja_iOS_Developer_PreprChallenge;
-			sourceTree = "<group>";
-		};
-		72A2B3AB2465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests */ = {
-			isa = PBXGroup;
-			children = (
-				72A2B3AC2465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests.swift */,
-				72A2B3AE2465CC710095F4EB /* Info.plist */,
-			);
-			path = Arjun_Dureja_iOS_Developer_PreprChallengeTests;
 			sourceTree = "<group>";
 		};
 		D35BF902A4E07BBD2F873FF9 /* Pods */ = {
@@ -267,6 +260,7 @@
 			files = (
 				72A2B3A22465CC710095F4EB /* LaunchScreen.storyboard in Resources */,
 				72A2B39F2465CC710095F4EB /* Assets.xcassets in Resources */,
+				72F4BC732467D04400689D50 /* GoogleService-Info.plist in Resources */,
 				72F4BC712467B67100689D50 /* keys.txt in Resources */,
 				72A2B39D2465CC700095F4EB /* Main.storyboard in Resources */,
 			);
@@ -334,6 +328,7 @@
 				72A2B3962465CC700095F4EB /* AppDelegate.swift in Sources */,
 				726B8752246676E8004F62F5 /* CreateLabCell.swift in Sources */,
 				726B874E24665C01004F62F5 /* Lab.swift in Sources */,
+				72F4BC752467D74B00689D50 /* SignUpViewController.swift in Sources */,
 				72A2B3BC246611890095F4EB /* LabCell.swift in Sources */,
 				72A2B3982465CC700095F4EB /* SceneDelegate.swift in Sources */,
 				72A2B3BA2465E76E0095F4EB /* LabsViewController.swift in Sources */,
@@ -346,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72A2B3AD2465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

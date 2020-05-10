@@ -21,11 +21,7 @@ class LabsViewController: UITableViewController {
         tableView.backgroundColor = UIColor.white
         
         title = "‎‎‎‎‎‏‏‎‏Available Labs"
-        navigationController?.navigationBar.barTintColor = UIColor.white
-        navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.customGreen]
-        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.customGreen]
-        navigationController?.navigationBar.prefersLargeTitles = true
-        
+
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addTapped))
         navigationItem.rightBarButtonItem?.tintColor = UIColor.customGreen
         
