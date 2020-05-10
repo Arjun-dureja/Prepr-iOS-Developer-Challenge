@@ -23,7 +23,7 @@
 		72A2B3B82465D5130095F4EB /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3B72465D5130095F4EB /* AuthTextField.swift */; };
 		72A2B3BA2465E76E0095F4EB /* LabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3B92465E76E0095F4EB /* LabsViewController.swift */; };
 		72A2B3BC246611890095F4EB /* LabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3BB246611890095F4EB /* LabCell.swift */; };
-		72F4BC6F2467B2DA00689D50 /* keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BC6E2467B2DA00689D50 /* keys.txt */; };
+		72F4BC712467B67100689D50 /* keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BC702467B67100689D50 /* keys.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 		72A2B3B72465D5130095F4EB /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
 		72A2B3B92465E76E0095F4EB /* LabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabsViewController.swift; sourceTree = "<group>"; };
 		72A2B3BB246611890095F4EB /* LabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabCell.swift; sourceTree = "<group>"; };
-		72F4BC6E2467B2DA00689D50 /* keys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys.txt; sourceTree = "<group>"; };
+		72F4BC702467B67100689D50 /* keys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +159,7 @@
 				72A2B39E2465CC710095F4EB /* Assets.xcassets */,
 				72A2B3A02465CC710095F4EB /* LaunchScreen.storyboard */,
 				72A2B3A32465CC710095F4EB /* Info.plist */,
-				72F4BC6E2467B2DA00689D50 /* keys.txt */,
+				72F4BC702467B67100689D50 /* keys.txt */,
 			);
 			path = Arjun_Dureja_iOS_Developer_PreprChallenge;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 			files = (
 				72A2B3A22465CC710095F4EB /* LaunchScreen.storyboard in Resources */,
 				72A2B39F2465CC710095F4EB /* Assets.xcassets in Resources */,
-				72F4BC6F2467B2DA00689D50 /* keys.txt in Resources */,
+				72F4BC712467B67100689D50 /* keys.txt in Resources */,
 				72A2B39D2465CC700095F4EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

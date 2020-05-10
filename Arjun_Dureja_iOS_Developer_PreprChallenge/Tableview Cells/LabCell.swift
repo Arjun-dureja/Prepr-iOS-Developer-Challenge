@@ -14,5 +14,4 @@ class LabCell: UITableViewCell {
     @IBOutlet weak var labDate: UILabel!
     @IBOutlet weak var labLocation: UILabel!
     
-    
 }

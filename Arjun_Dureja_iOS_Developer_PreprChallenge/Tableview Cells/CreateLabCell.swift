@@ -12,7 +12,6 @@ protocol CreateLabCellDelgate {
     func didTapLocation(name: String?)
 }
 
-
 class CreateLabCell: UITableViewCell, UITextFieldDelegate {
     @IBOutlet weak var nameField: AuthTextField!
     @IBOutlet weak var locationField: AuthTextField!
