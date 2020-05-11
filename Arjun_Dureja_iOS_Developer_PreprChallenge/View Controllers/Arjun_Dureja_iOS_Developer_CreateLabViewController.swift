@@ -9,27 +9,28 @@
 import UIKit
 import GoogleMaps
 import GooglePlaces
+import Firebase
 
 protocol CreateLabViewControllerDelegate {
+    // Tell delegate that the user has finished creating a lab, sends them the lab and an optional index
     func finishedCreatingLab(lab: Lab, indexPath: IndexPath?)
 }
 
 class CreateLabViewController: UITableViewController {
-    
-    var lab = Lab(name: "", locationName: "", latitude: 0, longitude: 0)
-    var name: String?
-    var locationName: String?
-    var latitude: Double?
-    var longitude: Double?
+    // Properties to create a new lab
+    var lab = Lab(name: "", locationName: "", latitude: 0, longitude: 0, date: "")
     var delegate: CreateLabViewControllerDelegate!
     var index: IndexPath?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Styling
         tableView.separatorStyle = .none
         tableView.isScrollEnabled = false
         tableView.allowsSelection = false
         
+        // Set title based on if its a new lab or the user is editing an existing lab
         if let _ = index {
             title = "‏‏‎Edit Lab"
         } else {
@@ -47,9 +48,11 @@ class CreateLabViewController: UITableViewController {
     }
     
     @objc func saveTapped() {
+        // Handle save
         guard let cell = tableView.cellForRow(at: IndexPath(row: 0, section: 0)) as? CreateLabCell else { return }
         lab.name = cell.nameField.text!
         
+        // Confirms the user has entered all required info
         if lab.name.isEmpty || lab.locationName.isEmpty {
             let ac = UIAlertController(title: "Error", message: "Please fill out all details", preferredStyle: .alert)
             ac.addAction(UIAlertAction(title: "OK", style: .default))
@@ -57,6 +60,7 @@ class CreateLabViewController: UITableViewController {
             return
         }
         
+        // Tells the delegate to create the lab
         delegate?.finishedCreatingLab(lab: lab, indexPath: index)
         popViewController()
     }
@@ -84,6 +88,8 @@ class CreateLabViewController: UITableViewController {
             fatalError("Unable to dequeue cell")
         }
         cell.delegate = self
+        
+        // Styling
         cell.nameField.text = lab.name
         cell.locationField.text = lab.locationName
         cell.nameField.attributedPlaceholder = NSAttributedString(string: "Enter Name", attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
@@ -94,6 +100,7 @@ class CreateLabViewController: UITableViewController {
     
     
     func locationTapped() {
+        // Opens Google Places autocomplete controller
         let autocompleteController = GMSAutocompleteViewController()
         autocompleteController.delegate = self
 
@@ -124,11 +131,16 @@ extension CreateLabViewController: GMSAutocompleteViewControllerDelegate {
 
   // Handle the user's selection.
   func viewController(_ viewController: GMSAutocompleteViewController, didAutocompleteWith place: GMSPlace) {
-    
+    // When the user finishes selecting a location, all values are assigned
     guard let placeName = place.name else { return }
     self.lab.locationName = placeName
     self.lab.latitude = Double(place.coordinate.latitude)
     self.lab.longitude = Double(place.coordinate.longitude)
+    
+    let date = DateFormatter()
+    date.dateFormat = "MM/dd/yyyy"
+    self.lab.date = date.string(from: Date())
+    
     tableView.reloadData()
     dismiss(animated: true, completion: nil)
   }

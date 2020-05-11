@@ -9,7 +9,7 @@
 import UIKit
 
 class AuthTextField: UITextField {
-    
+    // Custom textfield styling to reuse
     let padding = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 0)
     
     override init(frame: CGRect) {

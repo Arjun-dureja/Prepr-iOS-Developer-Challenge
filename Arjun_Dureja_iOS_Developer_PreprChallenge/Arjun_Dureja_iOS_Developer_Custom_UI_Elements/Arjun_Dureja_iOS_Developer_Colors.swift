@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 extension UIColor {
+    // Colors to reuse
     static var customGreen: UIColor {
         return UIColor(red: 128/255, green: 196/255, blue: 101/255, alpha: 1)
     }

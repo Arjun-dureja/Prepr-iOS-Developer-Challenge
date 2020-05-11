@@ -6,4 +6,5 @@ target 'Arjun_Dureja_iOS_Developer_PreprChallenge' do
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'CodableFirebase'
 end

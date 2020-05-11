@@ -9,6 +9,7 @@
 import UIKit
 
 protocol CreateLabCellDelgate {
+    // Tell delegate the user has tapped the location button
     func didTapLocation(name: String?)
 }
 

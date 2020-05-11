@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5410281CAE5F5538A7003030 /* libPods-Arjun_Dureja_iOS_Developer_PreprChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 136F5417A3CA748B2725D2FB /* libPods-Arjun_Dureja_iOS_Developer_PreprChallenge.a */; };
-		726B874C246637FC004F62F5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B874B246637FC004F62F5 /* MapViewController.swift */; };
-		726B874E24665C01004F62F5 /* Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B874D24665C01004F62F5 /* Lab.swift */; };
-		726B875024667534004F62F5 /* CreateLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B874F24667534004F62F5 /* CreateLabViewController.swift */; };
-		726B8752246676E8004F62F5 /* CreateLabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B8751246676E8004F62F5 /* CreateLabCell.swift */; };
-		726B875A24674CFD004F62F5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B875924674CFD004F62F5 /* Colors.swift */; };
+		726B874C246637FC004F62F5 /* Arjun_Dureja_iOS_Developer_MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B874B246637FC004F62F5 /* Arjun_Dureja_iOS_Developer_MapViewController.swift */; };
+		726B874E24665C01004F62F5 /* Arjun_Dureja_iOS_Developer_Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B874D24665C01004F62F5 /* Arjun_Dureja_iOS_Developer_Lab.swift */; };
+		726B875024667534004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B874F24667534004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabViewController.swift */; };
+		726B8752246676E8004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B8751246676E8004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabCell.swift */; };
+		726B875A24674CFD004F62F5 /* Arjun_Dureja_iOS_Developer_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726B875924674CFD004F62F5 /* Arjun_Dureja_iOS_Developer_Colors.swift */; };
 		72A2B3962465CC700095F4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3952465CC700095F4EB /* AppDelegate.swift */; };
 		72A2B3982465CC700095F4EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3972465CC700095F4EB /* SceneDelegate.swift */; };
-		72A2B39A2465CC700095F4EB /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3992465CC700095F4EB /* AuthViewController.swift */; };
+		72A2B39A2465CC700095F4EB /* Arjun_Dureja_iOS_Developer_AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3992465CC700095F4EB /* Arjun_Dureja_iOS_Developer_AuthViewController.swift */; };
 		72A2B39D2465CC700095F4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A2B39B2465CC700095F4EB /* Main.storyboard */; };
 		72A2B39F2465CC710095F4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A2B39E2465CC710095F4EB /* Assets.xcassets */; };
 		72A2B3A22465CC710095F4EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A2B3A02465CC710095F4EB /* LaunchScreen.storyboard */; };
-		72A2B3B82465D5130095F4EB /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3B72465D5130095F4EB /* AuthTextField.swift */; };
-		72A2B3BA2465E76E0095F4EB /* LabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3B92465E76E0095F4EB /* LabsViewController.swift */; };
-		72A2B3BC246611890095F4EB /* LabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3BB246611890095F4EB /* LabCell.swift */; };
+		72A2B3B82465D5130095F4EB /* Arjun_Dureja_iOS_Developer_AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3B72465D5130095F4EB /* Arjun_Dureja_iOS_Developer_AuthTextField.swift */; };
+		72A2B3BA2465E76E0095F4EB /* Arjun_Dureja_iOS_Developer_LabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3B92465E76E0095F4EB /* Arjun_Dureja_iOS_Developer_LabsViewController.swift */; };
+		72A2B3BC246611890095F4EB /* Arjun_Dureja_iOS_Developer_LabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A2B3BB246611890095F4EB /* Arjun_Dureja_iOS_Developer_LabCell.swift */; };
 		72F4BC712467B67100689D50 /* keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BC702467B67100689D50 /* keys.txt */; };
 		72F4BC732467D04400689D50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72F4BC722467D04400689D50 /* GoogleService-Info.plist */; };
-		72F4BC752467D74B00689D50 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4BC742467D74B00689D50 /* SignUpViewController.swift */; };
+		72F4BC752467D74B00689D50 /* Arjun_Dureja_iOS_Developer_SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4BC742467D74B00689D50 /* Arjun_Dureja_iOS_Developer_SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,26 +41,26 @@
 		0B37C307CBF340F66F88D45E /* Pods-Arjun_Dureja_iOS_Developer_PreprChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arjun_Dureja_iOS_Developer_PreprChallenge.release.xcconfig"; path = "Target Support Files/Pods-Arjun_Dureja_iOS_Developer_PreprChallenge/Pods-Arjun_Dureja_iOS_Developer_PreprChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		136F5417A3CA748B2725D2FB /* libPods-Arjun_Dureja_iOS_Developer_PreprChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Arjun_Dureja_iOS_Developer_PreprChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467D343C7C2E80C7D87C7609 /* Pods-Arjun_Dureja_iOS_Developer_PreprChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arjun_Dureja_iOS_Developer_PreprChallenge.debug.xcconfig"; path = "Target Support Files/Pods-Arjun_Dureja_iOS_Developer_PreprChallenge/Pods-Arjun_Dureja_iOS_Developer_PreprChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		726B874B246637FC004F62F5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		726B874D24665C01004F62F5 /* Lab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab.swift; sourceTree = "<group>"; };
-		726B874F24667534004F62F5 /* CreateLabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLabViewController.swift; sourceTree = "<group>"; };
-		726B8751246676E8004F62F5 /* CreateLabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLabCell.swift; sourceTree = "<group>"; };
-		726B875924674CFD004F62F5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		726B874B246637FC004F62F5 /* Arjun_Dureja_iOS_Developer_MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_MapViewController.swift; sourceTree = "<group>"; };
+		726B874D24665C01004F62F5 /* Arjun_Dureja_iOS_Developer_Lab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_Lab.swift; sourceTree = "<group>"; };
+		726B874F24667534004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_CreateLabViewController.swift; sourceTree = "<group>"; };
+		726B8751246676E8004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_CreateLabCell.swift; sourceTree = "<group>"; };
+		726B875924674CFD004F62F5 /* Arjun_Dureja_iOS_Developer_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_Colors.swift; sourceTree = "<group>"; };
 		72A2B3922465CC700095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arjun_Dureja_iOS_Developer_PreprChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A2B3952465CC700095F4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72A2B3972465CC700095F4EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72A2B3992465CC700095F4EB /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		72A2B3992465CC700095F4EB /* Arjun_Dureja_iOS_Developer_AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_AuthViewController.swift; sourceTree = "<group>"; };
 		72A2B39C2465CC700095F4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72A2B39E2465CC710095F4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72A2B3A12465CC710095F4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72A2B3A32465CC710095F4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72A2B3A82465CC710095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arjun_Dureja_iOS_Developer_PreprChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72A2B3B72465D5130095F4EB /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
-		72A2B3B92465E76E0095F4EB /* LabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabsViewController.swift; sourceTree = "<group>"; };
-		72A2B3BB246611890095F4EB /* LabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabCell.swift; sourceTree = "<group>"; };
+		72A2B3B72465D5130095F4EB /* Arjun_Dureja_iOS_Developer_AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_AuthTextField.swift; sourceTree = "<group>"; };
+		72A2B3B92465E76E0095F4EB /* Arjun_Dureja_iOS_Developer_LabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_LabsViewController.swift; sourceTree = "<group>"; };
+		72A2B3BB246611890095F4EB /* Arjun_Dureja_iOS_Developer_LabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_LabCell.swift; sourceTree = "<group>"; };
 		72F4BC702467B67100689D50 /* keys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys.txt; sourceTree = "<group>"; };
 		72F4BC722467D04400689D50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		72F4BC742467D74B00689D50 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		72F4BC742467D74B00689D50 /* Arjun_Dureja_iOS_Developer_SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arjun_Dureja_iOS_Developer_SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,39 +93,39 @@
 		726B875524674CA9004F62F5 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				72A2B3992465CC700095F4EB /* AuthViewController.swift */,
-				72A2B3B92465E76E0095F4EB /* LabsViewController.swift */,
-				726B874F24667534004F62F5 /* CreateLabViewController.swift */,
-				726B874B246637FC004F62F5 /* MapViewController.swift */,
-				72F4BC742467D74B00689D50 /* SignUpViewController.swift */,
+				72A2B3992465CC700095F4EB /* Arjun_Dureja_iOS_Developer_AuthViewController.swift */,
+				72A2B3B92465E76E0095F4EB /* Arjun_Dureja_iOS_Developer_LabsViewController.swift */,
+				726B874F24667534004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabViewController.swift */,
+				726B874B246637FC004F62F5 /* Arjun_Dureja_iOS_Developer_MapViewController.swift */,
+				72F4BC742467D74B00689D50 /* Arjun_Dureja_iOS_Developer_SignUpViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		726B875624674CC0004F62F5 /* Tableview Cells */ = {
+		726B875624674CC0004F62F5 /* Arjun_Dureja_iOS_Developer_Tableview_Cells */ = {
 			isa = PBXGroup;
 			children = (
-				726B8751246676E8004F62F5 /* CreateLabCell.swift */,
-				72A2B3BB246611890095F4EB /* LabCell.swift */,
+				726B8751246676E8004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabCell.swift */,
+				72A2B3BB246611890095F4EB /* Arjun_Dureja_iOS_Developer_LabCell.swift */,
 			);
-			path = "Tableview Cells";
+			path = Arjun_Dureja_iOS_Developer_Tableview_Cells;
 			sourceTree = "<group>";
 		};
-		726B875724674CD7004F62F5 /* Model */ = {
+		726B875724674CD7004F62F5 /* Arjun_Dureja_iOS_Developer_Model */ = {
 			isa = PBXGroup;
 			children = (
-				726B874D24665C01004F62F5 /* Lab.swift */,
+				726B874D24665C01004F62F5 /* Arjun_Dureja_iOS_Developer_Lab.swift */,
 			);
-			path = Model;
+			path = Arjun_Dureja_iOS_Developer_Model;
 			sourceTree = "<group>";
 		};
-		726B875824674CE8004F62F5 /* Custom UI Elements */ = {
+		726B875824674CE8004F62F5 /* Arjun_Dureja_iOS_Developer_Custom_UI_Elements */ = {
 			isa = PBXGroup;
 			children = (
-				72A2B3B72465D5130095F4EB /* AuthTextField.swift */,
-				726B875924674CFD004F62F5 /* Colors.swift */,
+				72A2B3B72465D5130095F4EB /* Arjun_Dureja_iOS_Developer_AuthTextField.swift */,
+				726B875924674CFD004F62F5 /* Arjun_Dureja_iOS_Developer_Colors.swift */,
 			);
-			path = "Custom UI Elements";
+			path = Arjun_Dureja_iOS_Developer_Custom_UI_Elements;
 			sourceTree = "<group>";
 		};
 		72A2B3892465CC700095F4EB = {
@@ -151,9 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				726B875524674CA9004F62F5 /* View Controllers */,
-				726B875624674CC0004F62F5 /* Tableview Cells */,
-				726B875724674CD7004F62F5 /* Model */,
-				726B875824674CE8004F62F5 /* Custom UI Elements */,
+				726B875624674CC0004F62F5 /* Arjun_Dureja_iOS_Developer_Tableview_Cells */,
+				726B875724674CD7004F62F5 /* Arjun_Dureja_iOS_Developer_Model */,
+				726B875824674CE8004F62F5 /* Arjun_Dureja_iOS_Developer_Custom_UI_Elements */,
 				72A2B3952465CC700095F4EB /* AppDelegate.swift */,
 				72A2B3972465CC700095F4EB /* SceneDelegate.swift */,
 				72A2B39B2465CC700095F4EB /* Main.storyboard */,
@@ -322,18 +322,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72A2B39A2465CC700095F4EB /* AuthViewController.swift in Sources */,
-				726B875A24674CFD004F62F5 /* Colors.swift in Sources */,
-				72A2B3B82465D5130095F4EB /* AuthTextField.swift in Sources */,
+				72A2B39A2465CC700095F4EB /* Arjun_Dureja_iOS_Developer_AuthViewController.swift in Sources */,
+				726B875A24674CFD004F62F5 /* Arjun_Dureja_iOS_Developer_Colors.swift in Sources */,
+				72A2B3B82465D5130095F4EB /* Arjun_Dureja_iOS_Developer_AuthTextField.swift in Sources */,
 				72A2B3962465CC700095F4EB /* AppDelegate.swift in Sources */,
-				726B8752246676E8004F62F5 /* CreateLabCell.swift in Sources */,
-				726B874E24665C01004F62F5 /* Lab.swift in Sources */,
-				72F4BC752467D74B00689D50 /* SignUpViewController.swift in Sources */,
-				72A2B3BC246611890095F4EB /* LabCell.swift in Sources */,
+				726B8752246676E8004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabCell.swift in Sources */,
+				726B874E24665C01004F62F5 /* Arjun_Dureja_iOS_Developer_Lab.swift in Sources */,
+				72F4BC752467D74B00689D50 /* Arjun_Dureja_iOS_Developer_SignUpViewController.swift in Sources */,
+				72A2B3BC246611890095F4EB /* Arjun_Dureja_iOS_Developer_LabCell.swift in Sources */,
 				72A2B3982465CC700095F4EB /* SceneDelegate.swift in Sources */,
-				72A2B3BA2465E76E0095F4EB /* LabsViewController.swift in Sources */,
-				726B874C246637FC004F62F5 /* MapViewController.swift in Sources */,
-				726B875024667534004F62F5 /* CreateLabViewController.swift in Sources */,
+				72A2B3BA2465E76E0095F4EB /* Arjun_Dureja_iOS_Developer_LabsViewController.swift in Sources */,
+				726B874C246637FC004F62F5 /* Arjun_Dureja_iOS_Developer_MapViewController.swift in Sources */,
+				726B875024667534004F62F5 /* Arjun_Dureja_iOS_Developer_CreateLabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
