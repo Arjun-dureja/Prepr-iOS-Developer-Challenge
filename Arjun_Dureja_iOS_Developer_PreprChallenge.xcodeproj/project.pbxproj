@@ -90,7 +90,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		726B875524674CA9004F62F5 /* View Controllers */ = {
+		726B875524674CA9004F62F5 /* Arjun_Dureja_iOS_Developer_View_Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				72A2B3992465CC700095F4EB /* Arjun_Dureja_iOS_Developer_AuthViewController.swift */,
@@ -99,7 +99,7 @@
 				726B874B246637FC004F62F5 /* Arjun_Dureja_iOS_Developer_MapViewController.swift */,
 				72F4BC742467D74B00689D50 /* Arjun_Dureja_iOS_Developer_SignUpViewController.swift */,
 			);
-			path = "View Controllers";
+			path = Arjun_Dureja_iOS_Developer_View_Controllers;
 			sourceTree = "<group>";
 		};
 		726B875624674CC0004F62F5 /* Arjun_Dureja_iOS_Developer_Tableview_Cells */ = {
@@ -150,7 +150,7 @@
 		72A2B3942465CC700095F4EB /* Arjun_Dureja_iOS_Developer_PreprChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				726B875524674CA9004F62F5 /* View Controllers */,
+				726B875524674CA9004F62F5 /* Arjun_Dureja_iOS_Developer_View_Controllers */,
 				726B875624674CC0004F62F5 /* Arjun_Dureja_iOS_Developer_Tableview_Cells */,
 				726B875724674CD7004F62F5 /* Arjun_Dureja_iOS_Developer_Model */,
 				726B875824674CE8004F62F5 /* Arjun_Dureja_iOS_Developer_Custom_UI_Elements */,
